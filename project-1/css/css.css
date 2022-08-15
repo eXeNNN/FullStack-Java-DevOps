@@ -1,0 +1,133 @@
+body {
+    background-color: lightgray;
+}
+div#maindiv {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 960px;
+    height: auto;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+}
+li {
+    margin: 0;
+}
+li a {
+    padding: 10px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+li a:hover {
+    color: black;
+    background-color: aliceblue;
+}
+#logo {
+    float: left;
+}
+li.menuitem {
+    position: relative;
+    display: inline-block;
+}
+div.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+.dropdown-content a {
+    padding: 10px;
+    background-color: aliceblue;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.title {
+    text-align: center;
+}
+
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
+}
+h3 {
+    text-align: center;
+}
+.box {
+    display: inline-block;
+    width: 960px;
+    overflow: auto;
+}
+.imgstaff {
+    float: left;
+    display: inline-block;
+    padding: 0 20px 0 0;
+    margin: 0;
+}
+
+.ntext {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+}
+.socialmedia {
+    padding: 50px;
+}
+
+/*Forms*/
+form {
+    border-radius: 5px;
+    padding: 10px;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input {
+    width: 60%;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 5px 5px;
+    border: 0;
+    border-bottom: 1px black solid;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}
+textarea {
+    width: 90%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:150px;
+    margin: 5px 5px;
+  }

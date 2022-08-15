@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Pedro Fernandez">
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="../css/css.css">
+    </head>
+    <body>
+        <div id="maindiv"> <!-- Main div where everything will take place -->
+            <div class="container">
+                <nav> <!-- Navigation bar -->
+                    <div class="imgcontainer">
+                        <a href="../index.html"><img id="logo" src="../images/logo.png" width="100px"></a>
+                    </div>
+                    <ul>
+                        <li class="dropdown">
+                            <a class="dropbtn" href="../about/about.html">About</a>
+                            <div class="dropdown-content">
+                                <a href="../about/staff.html">Staff</a>
+                            </div>
+                        </li> <!-- About / Staff -->
+                        <li class="dropdown">
+                            <a class="dropbtn" href="../mission/mission.html">Mission</a>
+                            <div class="dropdown-content">
+                                <a href="../mission/futureplans.html">Future Plans</a>
+                            </div>
+                        </li> <!-- Mission / Future plans -->
+                        <li class="dropdown">
+                            <a class="dropbtn" href="../products/products.html">Products</a>
+                            <div class="dropdown-content">
+                                <a href="../products/smartphones.html">SmartPhones</a>
+                                <a href="../products/tablets.html">Tablets</a>
+                            </div>
+                        </li> <!-- Products / Smartphones / Tablets -->
+                        <li class="dropdown">
+                            <a class="dropbtn" href="../socialnetworks/social.html">Social Networks</a>
+                            <div class="dropdown-content">
+                                <a href="../socialnetworks/workwithus.html">Work with us</a>
+                            </div>
+                        </li> <!-- Social Networks / Work with us -->
+                        <li class="dropdown">
+                            <a class="dropbtn" href="contact.html">Contact</a>
+                            <div class="dropdown-content">
+                                <a href="location.html">Location</a>
+                            </div>
+                        </li> <!-- Contact / Location  -->
+                    </ul>
+                </nav> 
+            </div>
+            <hr>
+
+            <h1 class="title">How can you contact us?</h1>
+
+            <p class="ntext">If you need to contact us for any reason or you just want to give us some feedback, you can fill this form:</p>
+
+            <form method="POST" action="http://vip.groupehn.com:20003/html/infospost.php" enctype="application/x-www-form-urlencoded">
+
+                <label>First Name </label><br>
+                <input type="text" placeholder="Your first name" name="firstname"><br>
+                <label>Last Name</label><br>
+                <input type="text" placeholder="Your last name" name="lastname"><br><br>
+                <label>Email</label><br>
+                <input type="email" placeholder="Your email" name="email"><br><br>
+                <label>Write your comments:</label><br>
+                <textarea rows="10" cols="66" name="request"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+            <footer>
+                Copyright 2022
+            </footer>
+        </div>
+    </body>
+</html>
